@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url(fonts/gothampro.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	font-family: "Gotham", "Gotham", sans-serif;
+}
+
+.positioned {
+  position: sticky;
+  /* padding-left: 100px; */
+  padding-top: 70px;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+}
+
+.container {
+	z-index: 50;
+}
+
+.count-input {
+	width:10%;
+	display: inline;
+}
+
+.add-to-basket-block {
+	margin-top: 7px;
+}
+
+
+.modal-image {
+	width: 100%;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+.amount{
+    display: inline;
+}
+.product{
+    display: inline;
+}
+.remove-from-cart{
+    display: inline;
+}
+footer {
+    margin: 50px 0;
+}
